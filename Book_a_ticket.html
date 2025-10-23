@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a ticket</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="Book_a_ticket.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="Book_a_ticket.html">Bookings</a></li>
+            <li><a href="About_Us.html">About</a></li>
+            <li><a href="Our_Services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <center>
+        <img src="Media/swift_logo.jpg" alt="" width="100" height="100">
+        <H1>SWIFT GLOBAL TRANSPORTATION</H1>
+        <h4>The Pacesetters...</h4>
+        <img src="Media/nigeria.jpg" alt="" width="100" height="50">
+        <img src="Media/benin.jpg" alt="" width="100" height="50">
+        <img src="Media/togo.jpg" alt="" width="100" height="50">
+        <img src="Media/ghana.jpg" alt="" width="100" height="50">
+        <img src="Media/ivorycoast.jpg" alt="" width="100" height="50">
+    </center>
+    <hr>
+    <div class="form">
+    <form action="" method="post">
+        <H1 class="details">Personal Details</H1>
+        <label for="">Firstname:</label>
+        <input type="text" placeholder="Enter firstname"><br><br>
+        <label for="">Lastname:</label>
+        <input type="text"  placeholder="Enter lastname"><br><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="female">Female <br><br>
+        <label for="">Telephone:</label>
+        <input type="text"><br><br>
+        <label for="">Email:</label>
+        <input type="email"><br><br>
+        <H1 class="details">Travel Details</H1>
+        <label for="">Destination:</label>
+        <select name="" id="">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Benin Republic">Benin Republic</option>
+            <option value="Togo">Togo</option>
+            <option value="Ghana" selected>Ghana</option>
+            <option value="Ivory Coast">Ivory Coast</option>
+            <option value="Liberia">Liberia</option>
+            <option value="Sierra Leone">Sierra Leone</option>
+            <option value="Guinea">Guinea</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Mali">Mali</option>
+       </select><br><br>
+        <label for="">Departure Date:</label>
+        <input type="date"><br><br>
+        <label for="">Travel Class:</label>
+        <select name="" id="">
+            <option value="One-way Trip">One-way Trip</option>
+            <option value="Round Trip">Round Trip</option>
+            <option value="Charter Sercvice">Charter Service</option>
+        </select><br><br>
+        <label for="">Number of Passengers:</label>
+        <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        <label for="">Children:</label>
+        <select name="" id="">
+            <option value="None">0</option>
+             <option value="1">1</option>
+             <option value="2">2</option>
+
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+        </select><br><br>
+        <label for="">Special Request</label>   <br>
+        <textarea name="feedback" id="" cols="40" rows="10"></textarea><br>
+        <H1 class="details">Payment Information</H1>
+        <img src="Media/mastercard.jpg" alt="" width="100" height="20">
+        <img src="Media/visa.jpg" alt="" width="100" height="20">
+        <img src="Media/verve.jpg" alt="" width="100" height="20"><br><br>
+        <label for="">Card No:</label>
+        <input type="text" size="30"><br><br>
+       
+        <label for="" >Expiry Date:</label>
+        <input type="text" maxlength="5" size="5" placeholder="MM/YY">
+        <label for="" >CVV:</label>
+        <input type="password" size="5" ><br><br>
+        <button>submit</button>
+     </div>
+       
+
+    </form>  
+    
+</body>
+</html>
